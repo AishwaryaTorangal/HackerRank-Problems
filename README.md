@@ -1,2 +1,2 @@
-# HackerRank-Problems
+# HackerRank
 It contains HackerRank problems.
