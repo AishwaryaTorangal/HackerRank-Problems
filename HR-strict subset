@@ -1,0 +1,12 @@
+A=set(map(int,input().split()))
+N=int(input())
+res=True
+for _ in range(N):
+    B=set(map(int,input().split()))
+    if len(A)<=len(B):
+        temp=False
+    if len(A)>len(B):
+        temp=A.issuperset(B)
+    res=res and temp
+print(res)
+ star 1
