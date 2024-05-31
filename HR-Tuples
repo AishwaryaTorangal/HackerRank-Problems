@@ -1,0 +1,10 @@
+ n = int(input())
+    integer_list = map(int, input().split())
+    res=tuple(integer_list)
+    print(hash(res))
+
+def average(array):
+    # your code goes here
+    unique=set(array)
+    return round(sum(unique)/len(unique),3)
+ 
